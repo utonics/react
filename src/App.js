@@ -1,25 +1,441 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
+import styles from './login.module.css'
+
+const Login = (props) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className={styles['login']}>
+        <img
+          src="/playground_assets/rectangle104013-nwdr-1200w.png"
+          alt="Rectangle104013"
+          className={styles['rectangle1040']}
+        />
+        <div className={styles['mask-group']}></div>
+        <img
+          src="/playground_assets/vector17-4p4.svg"
+          alt="Vector17"
+          className={styles['vector']}
+        />
+        <div className={styles['group2014']}>
+          <img
+            src="/playground_assets/rectangle1040i103-jv9r-800h.png"
+            alt="Rectangle1040I103"
+            className={styles['rectangle10401']}
+          />
+          <img
+            src="/playground_assets/rectangle1050i103-eh9-200w.png"
+            alt="Rectangle1050I103"
+            className={styles['rectangle1050']}
+          />
+          <img
+            src="/playground_assets/rectangle1051i103-art-200w.png"
+            alt="Rectangle1051I103"
+            className={styles['rectangle1051']}
+          />
+          <div className={styles['group2011']}>
+            <img
+              src="/playground_assets/vectori103-5mh.svg"
+              alt="VectorI103"
+              className={styles['vector01']}
+            />
+            <img
+              src="/playground_assets/vectori103-n2cv.svg"
+              alt="VectorI103"
+              className={styles['vector02']}
+            />
+          </div>
+          <img
+            src="/playground_assets/vectori103-3m.svg"
+            alt="VectorI103"
+            className={styles['vector03']}
+          />
+          <img
+            src="/playground_assets/vectori103-4apj.svg"
+            alt="VectorI103"
+            className={styles['vector04']}
+          />
+          <img
+            src="/playground_assets/vectori103-83n4.svg"
+            alt="VectorI103"
+            className={styles['vector05']}
+          />
+          <img
+            src="/playground_assets/vectori103-evhy.svg"
+            alt="VectorI103"
+            className={styles['vector06']}
+          />
+          <img
+            src="/playground_assets/vectori103-zckh.svg"
+            alt="VectorI103"
+            className={styles['vector07']}
+          />
+          <img
+            src="/playground_assets/vectori103-4ptg.svg"
+            alt="VectorI103"
+            className={styles['vector08']}
+          />
+          <img
+            src="/playground_assets/vectori103-fw9l.svg"
+            alt="VectorI103"
+            className={styles['vector09']}
+          />
+          <img
+            src="/playground_assets/vectori103-dw2q.svg"
+            alt="VectorI103"
+            className={styles['vector10']}
+          />
+          <img
+            src="/playground_assets/vectori103-qdwo.svg"
+            alt="VectorI103"
+            className={styles['vector11']}
+          />
+          <img
+            src="/playground_assets/vectori103-z84l.svg"
+            alt="VectorI103"
+            className={styles['vector12']}
+          />
+          <img
+            src="/playground_assets/vectori103-qkgo.svg"
+            alt="VectorI103"
+            className={styles['vector13']}
+          />
+          <img
+            src="/playground_assets/vectori103-f3gd.svg"
+            alt="VectorI103"
+            className={styles['vector14']}
+          />
+          <img
+            src="/playground_assets/vectori103-je7h.svg"
+            alt="VectorI103"
+            className={styles['vector15']}
+          />
+          <img
+            src="/playground_assets/vectori103-awkj.svg"
+            alt="VectorI103"
+            className={styles['vector16']}
+          />
+          <img
+            src="/playground_assets/vectori103-npw.svg"
+            alt="VectorI103"
+            className={styles['vector17']}
+          />
+          <img
+            src="/playground_assets/vectori103-guli.svg"
+            alt="VectorI103"
+            className={styles['vector18']}
+          />
+          <img
+            src="/playground_assets/vectori103-shd.svg"
+            alt="VectorI103"
+            className={styles['vector19']}
+          />
+          <img
+            src="/playground_assets/vectori103-7mby.svg"
+            alt="VectorI103"
+            className={styles['vector20']}
+          />
+          <img
+            src="/playground_assets/vectori103-fgwh.svg"
+            alt="VectorI103"
+            className={styles['vector21']}
+          />
+          <img
+            src="/playground_assets/vectori103-0fws.svg"
+            alt="VectorI103"
+            className={styles['vector22']}
+          />
+          <img
+            src="/playground_assets/vectori103-hcur.svg"
+            alt="VectorI103"
+            className={styles['vector23']}
+          />
+          <img
+            src="/playground_assets/vectori103-mb6.svg"
+            alt="VectorI103"
+            className={styles['vector24']}
+          />
+          <img
+            src="/playground_assets/vectori103-hnci.svg"
+            alt="VectorI103"
+            className={styles['vector25']}
+          />
+          <img
+            src="/playground_assets/vectori103-cagt.svg"
+            alt="VectorI103"
+            className={styles['vector26']}
+          />
+          <img
+            src="/playground_assets/vectori103-tryb.svg"
+            alt="VectorI103"
+            className={styles['vector27']}
+          />
+          <img
+            src="/playground_assets/vectori103-phx5.svg"
+            alt="VectorI103"
+            className={styles['vector28']}
+          />
+          <img
+            src="/playground_assets/vectori103-rlot.svg"
+            alt="VectorI103"
+            className={styles['vector29']}
+          />
+          <img
+            src="/playground_assets/vectori103-y5pk.svg"
+            alt="VectorI103"
+            className={styles['vector30']}
+          />
+          <img
+            src="/playground_assets/vectori103-weq.svg"
+            alt="VectorI103"
+            className={styles['vector31']}
+          />
+          <img
+            src="/playground_assets/vectori103-lwrv.svg"
+            alt="VectorI103"
+            className={styles['vector32']}
+          />
+          <img
+            src="/playground_assets/vectori103-1b7e.svg"
+            alt="VectorI103"
+            className={styles['vector33']}
+          />
+          <img
+            src="/playground_assets/vectori103-ztd.svg"
+            alt="VectorI103"
+            className={styles['vector34']}
+          />
+          <img
+            src="/playground_assets/vectori103-b2yn.svg"
+            alt="VectorI103"
+            className={styles['vector35']}
+          />
+          <img
+            src="/playground_assets/vectori103-rl8m.svg"
+            alt="VectorI103"
+            className={styles['vector36']}
+          />
+          <img
+            src="/playground_assets/vectori103-a8um.svg"
+            alt="VectorI103"
+            className={styles['vector37']}
+          />
+          <img
+            src="/playground_assets/vectori103-bksz.svg"
+            alt="VectorI103"
+            className={styles['vector38']}
+          />
+          <img
+            src="/playground_assets/vectori103-ttnf.svg"
+            alt="VectorI103"
+            className={styles['vector39']}
+          />
+          <img
+            src="/playground_assets/vectori103-4w2e.svg"
+            alt="VectorI103"
+            className={styles['vector40']}
+          />
+          <img
+            src="/playground_assets/vectori103-fkpe.svg"
+            alt="VectorI103"
+            className={styles['vector41']}
+          />
+          <img
+            src="/playground_assets/vectori103-v5y8.svg"
+            alt="VectorI103"
+            className={styles['vector42']}
+          />
+          <img
+            src="/playground_assets/vectori103-v2uk.svg"
+            alt="VectorI103"
+            className={styles['vector43']}
+          />
+          <img
+            src="/playground_assets/vectori103-v2q5.svg"
+            alt="VectorI103"
+            className={styles['vector44']}
+          />
+          <img
+            src="/playground_assets/vectori103-8o7d.svg"
+            alt="VectorI103"
+            className={styles['vector45']}
+          />
+          <img
+            src="/playground_assets/vectori103-4p6e.svg"
+            alt="VectorI103"
+            className={styles['vector46']}
+          />
+          <img
+            src="/playground_assets/vectori103-pe3h.svg"
+            alt="VectorI103"
+            className={styles['vector47']}
+          />
+          <img
+            src="/playground_assets/vectori103-5hh.svg"
+            alt="VectorI103"
+            className={styles['vector48']}
+          />
+          <img
+            src="/playground_assets/vectori103-frfu.svg"
+            alt="VectorI103"
+            className={styles['vector49']}
+          />
+          <img
+            src="/playground_assets/vectori103-crwk.svg"
+            alt="VectorI103"
+            className={styles['vector50']}
+          />
+          <img
+            src="/playground_assets/vectori103-1w.svg"
+            alt="VectorI103"
+            className={styles['vector51']}
+          />
+          <img
+            src="/playground_assets/vectori103-4qkn.svg"
+            alt="VectorI103"
+            className={styles['vector52']}
+          />
+          <img
+            src="/playground_assets/vectori103-0pyej.svg"
+            alt="VectorI103"
+            className={styles['vector53']}
+          />
+          <img
+            src="/playground_assets/vectori103-68uxu.svg"
+            alt="VectorI103"
+            className={styles['vector54']}
+          />
+          <img
+            src="/playground_assets/vectori103-xah9.svg"
+            alt="VectorI103"
+            className={styles['vector55']}
+          />
+          <img
+            src="/playground_assets/vectori103-txpj.svg"
+            alt="VectorI103"
+            className={styles['vector56']}
+          />
+          <img
+            src="/playground_assets/vectori103-l8v.svg"
+            alt="VectorI103"
+            className={styles['vector57']}
+          />
+          <img
+            src="/playground_assets/vectori103-jluv.svg"
+            alt="VectorI103"
+            className={styles['vector58']}
+          />
+          <img
+            src="/playground_assets/vectori103-7rrb.svg"
+            alt="VectorI103"
+            className={styles['vector59']}
+          />
+          <img
+            src="/playground_assets/vectori103-nl9k.svg"
+            alt="VectorI103"
+            className={styles['vector60']}
+          />
+          <img
+            src="/playground_assets/vectori103-tfqk.svg"
+            alt="VectorI103"
+            className={styles['vector61']}
+          />
+          <img
+            src="/playground_assets/vectori103-uvbc.svg"
+            alt="VectorI103"
+            className={styles['vector62']}
+          />
+          <img
+            src="/playground_assets/vectori103-mob.svg"
+            alt="VectorI103"
+            className={styles['vector63']}
+          />
+          <img
+            src="/playground_assets/vectori103-alwc.svg"
+            alt="VectorI103"
+            className={styles['vector64']}
+          />
+          <img
+            src="/playground_assets/vectori103-s1sp.svg"
+            alt="VectorI103"
+            className={styles['vector65']}
+          />
+        </div>
+        <img
+          src="/playground_assets/rectangle1040178-xtg-800h.png"
+          alt="Rectangle1040178"
+          className={styles['rectangle10402']}
+        />
+        <div className={styles['text']}>
+          <span className={styles['text01']}>
+            <span>Welcome back !!!</span>
+          </span>
+          <span className={styles['text03']}>
+            <span>Sing in</span>
+          </span>
+          <span className={styles['text05']}>
+            <span className={styles['text06']}>
+              I don’t have an account ?
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span>Sign up</span>
+          </span>
+        </div>
+        <div className={styles['logo']}>
+          <span className={styles['text08']}>
+            <span>Logo Here</span>
+          </span>
+        </div>
+        <div className={styles['email']}>
+          <div className={styles['group2015']}>
+            <img
+              src="/playground_assets/rectangle1046187-aj7b-200h.png"
+              alt="Rectangle1046187"
+              className={styles['rectangle1046']}
+            />
+            <span className={styles['text10']}>
+              <span>Email</span>
+            </span>
+            <span className={styles['text12']}>
+              <span>test1@gmail.com</span>
+            </span>
+          </div>
+        </div>
+        <div className={styles['password']}>
+          <img
+            src="/playground_assets/rectangle1047191-ksas-200h.png"
+            alt="Rectangle1047191"
+            className={styles['rectangle1047']}
+          />
+          <span className={styles['text14']}>
+            <span>Password</span>
+          </span>
+          <span className={styles['text16']}>
+            <span>Forgot Password ?</span>
+          </span>
+          <span className={styles['text18']}>
+            <span>**************</span>
+          </span>
+        </div>
+        <div className={styles['button']}>
+          <div className={styles['group2016']}>
+            <span className={styles['text20']}>
+              <span>Sing in</span>
+            </span>
+            <img
+              src="/playground_assets/antdesignswapleftoutlined199-dpom.svg"
+              alt="antdesignswapleftoutlined199"
+              className={styles['antdesignswapleftoutlined']}
+            />
+          </div>
+        </div>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default Login
